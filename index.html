@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home-Sujal</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <script>
+    src = "https://kit.fontawesome.com/a076d05399.js";
+    crossorigin = "anonymous";
+    document.addEventListener("DOMContentLoaded", function () {
+      const greetingDiv = document.getElementById("greeting");
+      const currentTime = new Date().getHours();
+      const currentMinutes = new Date().getMinutes();
+      let timeOfDay = "";
+
+      if (currentTime >= 0 && currentTime < 12) {
+        timeOfDay = "Good  Morning";
+      } else if (currentTime >= 12 && currentTime < 18) {
+        timeOfDay = "Good  Afternoon";
+      } else {
+        timeOfDay = "Good  Evening";
+      }
+
+      greetingDiv.textContent = `${timeOfDay}`;
+
+      if (currentTime < 12) {
+        greetingDiv.textContent += ` `;
+      } else {
+        greetingDiv.textContent += ` `;
+      }
+    });
+  </script>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="#" class="logo">Seekify</a>
+        <nav class="nav-bar">
+          <a href="https://gc.blackboard.com/ultra/institution-page"
+            >BlackBoard</a
+          >
+          <a
+            href="https://sts.georgiancollege.ca/adfs/ls?SAMLRequest=lZPBbtswDIbvewpD98SOE2yLELsIUhQo0AFFmu7QGysztlKL0kQ57eNXdhPMh3bIrjb5kf9HaHX1ZtrkiJ61pULMpplIkJStNNWFeNzdTH6Kq%2FLbisG0Tq670NAW%2F3TIIVkzow%2BxbWOJO4P%2BAf1RK3zc3hWiCcGxTFOosnxao%2FW1hohtW6xxqkAuF4t5qqwxliBCRXIdkZogDGucuznwJ80Ruue0ZZHcWK9wWKoQe2gZRXJ7XQiy7QG1MrVtm5dGOa0J3YuGAxyocfBsanrea6hiNd8Dsz7i337mDm%2BJA1AoRJ7li0k2n2T5LvsuZ0s5%2FzGdLedPIvl9Vpb3yqJEYjlIKkTnSVpgzZLAIMug5MP6152MldJ5G2yMIsqT0mGevxwAZ%2BuivMhxj2S2q3Q87mN47uTpllgNEuMhA76FZGONA6%2B5j2c0adOZccT8%2FzLmcgzftDHBFvdj3sWJ%2F1mmpOrZ8XN%2F01frq%2Fu4CKqYbueB2FkfPjR8vlF5%2BvmFlfKscPwIync%3D&RelayState=c4d9eaeb-9cf3-4193-b3c1-15f9959b712b"
+            >Banner</a
+          >
+          <a href="https://www.tinkercad.com/">TkinterCad</a>
+          <a href="https://www.w3schools.com/">W3c school</a>
+        </nav>
+      </header>
+      <div id="greeting"></div>
+
+      <section>
+        <h2>Welcome &nbsp; Mr.<strong> Sujal Upadhyay</strong></h2>
+      </section>
+      <main>
+        <div class="bookmark">
+          <div class="ff">
+            <i class="fa fa-facebook fa-3x" ></i>
+            <a href="https://www.facebook.com/" class="facebook" target="_blank">Facebook</a>
+            </div>
+            <div class="ff">
+            <i class="fa fa-instagram fa-3x" ></i>
+            <a href="https://www.instagram.com" class="in" target="_blank">Instagram</a>
+          </div>
+          <div class="ff">
+            <i class="fab fa-discord fa-3x"></i>
+            <a href="https://www.discord.com" class="dis" target="_blank">Discord</a>
+  
+          </div>
+          <div class="ff">
+  
+            <i class="fa fa-youtube fa-3x" ></i>
+            <a href="https://www.youtube.com" class="yt" target="_blank">Youtube</a>
+            </div>
+          <div class="ff">
+            <i class="fa fa-reddit fa-3x" ></i>
+            <a href="https://www.reddit.com" class="red" target="_blank">Reddit</a>
+  </div>
+  
+      </main>
+    </div>
+  </body>
+</html>

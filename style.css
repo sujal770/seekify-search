@@ -1,0 +1,111 @@
+/* For logo */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+/* for text */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body {
+  min-height: 100vh;
+  background: url("https://images.freecreatives.com/wp-content/uploads/2016/04/Abstract-Website-Background.jpg")
+    no-repeat;
+  background-size: cover;
+}
+.header {
+  padding: 20px 0;
+  display: flex;
+
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+.header .logo {
+  color: rgb(91, 239, 150);
+  text-decoration: none;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+nav {
+  display: flex;
+  padding: 2%;
+  column-gap: 30px;
+}
+.nav-bar a {
+  color: white;
+  font-family: "Outfit", sans-serif;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+}
+.nav-bar a:hover {
+  color: aquamarine;
+  border-bottom: 2px solid aquamarine;
+}
+section {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 6%;
+}
+section h2 {
+  color: white;
+  font-family: "Outfit", sans-serif;
+}
+section strong {
+  border-bottom: 3px solid white;
+  color: aquamarine;
+  font-family: "Outfit", sans-serif;
+}
+#greeting {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 4%;
+  font-size: 24px;
+  color: white;
+  font-family: "Outfit", sans-serif;
+  text-decoration: underline;
+}
+main {
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.bookmark {
+  margin-top: 110px;
+
+  justify-content: space-between;
+  display: flex;
+  align-self: center;
+  text-align: center;
+}
+.ff a {
+  color: white;
+  font-family: sans-serif;
+}
+.ff i {
+  color: white;
+  display: block;
+  margin-top: 20px;
+}
+.ff a {
+  margin-top: 15px;
+  text-decoration: none;
+}
+.ff a:hover {
+  color: rgb(91, 239, 150);
+}
